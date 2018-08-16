@@ -1,13 +1,3 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the rotLeft function below.
-
 
 a = int(input("no. of elements: "))
 d = int(input("no. of rotation: "))
@@ -24,3 +14,15 @@ for i in range(d):
 print(" ".join(map(str,A)))
 
 
+
+OUTPUT:
+no. of elements: 3
+no. of rotation: 3
+7
+5
+9
+7 5 9
+
+Process finished with exit code 0
+    
+    
