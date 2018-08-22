@@ -1,0 +1,41 @@
+
+x = input().strip().split()
+x = int(x[0])
+strings = [input().strip('')for i in range(x)]
+y = input().strip().split()
+y = int(y[0])
+queries = [input().strip('') for j in range(y)]
+for l in range(y):
+    count = 0
+    for k in range(x):
+        if strings[k] == queries[l]:
+            count += 1
+    print(count)
+
+
+
+
+
+
+
+
+INPUT:
+4
+aba
+baba
+aba
+xzxb
+3
+aba
+xzxb
+ab
+
+
+OUTPUT:
+2
+1
+0
+
+
+
+
