@@ -21,4 +21,4 @@ for(var i=0;i<arr.length;i++)
 }
 
 
-console.log("count is "+count);
+console.log("count is"+count);
