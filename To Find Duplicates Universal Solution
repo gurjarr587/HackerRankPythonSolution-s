@@ -1,0 +1,11 @@
+def delete_nth(lst,n):
+    dic2 = {}
+    list2 = []
+    counts = {i:0 for i in lst}
+
+    for i in lst:
+            counts[i] += 1
+    return counts
+n = 2
+lst = [1,'A',3,1,'q','q','A',1,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+print(delete_nth(lst,n))
